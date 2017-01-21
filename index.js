@@ -4,7 +4,7 @@ const test = express();
 
 
 app.get('/', (req, res) => {
-  res.send('HEY! There Chicken')
+  res.send('HEY! There Chicken we are now on develop branch')
 
 })
 app.listen(3000, () => console.log('Server running on port 3000'))
