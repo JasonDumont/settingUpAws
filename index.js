@@ -10,8 +10,8 @@ app.get('/', (req, res) => {
 app.listen(3000, () => console.log('Server running on port 3000'))
 
 
-app.get('/', (req, res) => {
+test.get('/', (req, res) => {
   res.send('HEY! There Chicken, this is the test site')
 
 })
-app.listen(4321, () => console.log('Server running on port 4321'))
+test.listen(4321, () => console.log('Server running on port 4321'))
