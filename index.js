@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 app.get('/', (req, res) => {
-  res.send('HEY! There Chciken');
-  res.send('you suck and this aws thing is hards');
+  res.send('HEY! There Chicken')
+
 })
 app.listen(3000, () => console.log('Server running on port 3000'))
